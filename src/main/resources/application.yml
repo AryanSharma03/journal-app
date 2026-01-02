@@ -1,0 +1,29 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  data:
+    mongodb:
+      uri: mongodb+srv://aryan2002sharma_db_user:D1Yrf9P8VqY5rbiw@cluster0.ijgzkzo.mongodb.net/?appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+  profiles:
+    active: dev
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: xxxxxxxxxxxxxxx@gmail.com
+    password: xxxx xxxx xxxx xxxx
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+weather:
+  api:
+    key: 572f2a2bbb2d93740d262f1d72120e04
+
+
