@@ -2,7 +2,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://aryan2002sharma_db_user:D1Yrf9P8VqY5rbiw@cluster0.ijgzkzo.mongodb.net/?appName=Cluster0
+      uri: ${uri}
       database: journaldb
       auto-index-creation: true
 
